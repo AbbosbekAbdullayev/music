@@ -1,0 +1,150 @@
+body {
+    background-color: #f3f0f0;
+    background-image: url(./../../image/bg.png);
+    background-repeat: repeat;
+}
+
+.headerr {
+    background: #fff;
+    position: relative;
+    padding: 10px;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    .btn {
+        font-weight: bolder;
+        margin-top: -5px;
+    }
+}
+
+.header__logo {
+    img {
+        position: absolute;
+        top: -22px;
+        left: 80px;
+        width: 200px;
+    }
+}
+
+.header__list{
+    margin-left: 130px;
+   & li{
+       margin-left: 50px;
+   }
+}
+.header__item{
+    list-style: none;
+    & a{
+       text-decoration: none;
+       font-size: 16px;
+       line-height: 20px;
+       font-weight: 500;
+       color: black;
+    }
+}
+
+.uslogia {
+    align-items: center;
+    .first {
+        text-align: right;
+    }
+    &-row .col{
+        margin-top: 11px;
+        justify-content: center;
+        a, p {
+            margin-right: 17px;
+            color: black;
+            text-decoration: none;
+            transition: all 0.5s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.hero {
+    height: 120vh;
+    background-image: url(./../../image/hero-bg.png), url(./../../image/);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -66px;
+
+    &__text {
+        max-width: 700px;
+        text-align: left;
+        position: absolute;
+        right: 0; 
+        top: 33%;
+
+        h1 {
+            font-size: 67px;   
+            color: black;   
+            line-height: 66px; 
+            word-spacing: 7px; 
+
+            span {
+                color: rgb(0, 140, 255); 
+            } 
+        } 
+ 
+        p { 
+            max-width: 505px;
+            margin-top: -11px; 
+        } 
+        a {
+            width: 210px; 
+            background: #222;
+            border: 2px solid black;
+            color: white;
+            transition: all 0.5s ease;
+            padding: 8px 0;
+            font-size: 20px;
+            margin-top: 13px;
+
+            &:hover {
+                background: #ffbd54;
+                border: 2px solid #f5b144;
+            }            
+        }           
+    }  
+}   
+
+.quotes {
+    text-align: center;
+    margin-top: 33px;
+    position: relative;
+    width: 100%;
+
+    .line {
+        width: 122px;
+        height: 1px;
+        background-color: rgba(153, 153, 153, 0.37);
+        margin: 35px 0;
+        margin-left: 44%;
+    }
+
+    &__text {
+        width: 888px;
+        color: rgb(124, 124, 124);
+    }
+
+    .circle {
+        margin-top: 22px;
+    }
+
+    .circle1 {
+        margin-top: 90%;
+    }
+
+    &__clinic {
+        font-size: 22px;
+        font-family: Arial;
+        
+    }
+}
