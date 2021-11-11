@@ -1,22 +1,30 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    background: #111;
     box-sizing: border-box;
+}
 
+* {
+    text-decoration: none;
 }
-* ::after, *::before{
-            box-sizing: inherit;
+
+* ::after,
+*::before {
+    box-sizing: inherit;
 }
-.container{
-    max-width: 1300px;
+
+.container {
+    max-width: 1220px;
     margin: 0 auto;
     padding: 0 10px;
 }
-img{
-  max-width: 100%;
-  height: auto;
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .container__bg {
-  max-width: 1440px;
+    max-width: 1440px;
 }
